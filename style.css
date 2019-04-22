@@ -67,7 +67,7 @@ table {
 
 @media only screen and (orientation: landscape) {
     .background-texture {
-        height: 1495px;
+        height: 1400px;
         background: url("images/background-logo-black.png");
         background-repeat: no-repeat;
         background-size: contain;
