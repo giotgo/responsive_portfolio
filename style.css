@@ -44,7 +44,7 @@ table {
 
 
 
-body {
+.hide-overflow {
     overflow-x: hidden;
 }
 
