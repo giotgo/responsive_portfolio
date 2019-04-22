@@ -61,7 +61,6 @@ body {
         background-position: center;
         position: relative;
         top: -200vh;
-        right: -20vw;
         z-index: -1;
     }
 }
