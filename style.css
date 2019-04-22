@@ -45,7 +45,7 @@ table {
 
 
 .hide-overflow {
-	display: relative;
+	position: relative;
 	right: 120px;
 	overflow-x: hidden;
 }
