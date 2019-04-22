@@ -45,7 +45,7 @@ table {
 
 
 body {
-    overflow-x: hidden !important;
+    overflow-x: hidden;
 }
 
 .background {
@@ -75,7 +75,6 @@ body {
         background-position: center;
         position: absolute;
         top: -20vh;
-        right: -20vw;
         z-index: -1;
     }
 }
