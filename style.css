@@ -45,7 +45,8 @@ table {
 
 
 .hide-overflow {
-    overflow-x: hidden;
+	width: 100vw;    
+	overflow-x: hidden;
 }
 
 .background {
