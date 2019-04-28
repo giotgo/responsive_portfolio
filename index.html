@@ -13,6 +13,9 @@
     
         <link rel="stylesheet" href="https://use.typekit.net/cmr2dgs.css" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
+
+        <script type="text/javascript" src="script.js"></script>
+
     </head>
 
     <body class="background">
@@ -175,16 +178,16 @@
 
                 <img class="footer-logo-yellow" src="images/logo-yellow.png">
 
-                <p class="footer-text"> Giovanni Tagliaro © Copyright 2019. Todos os direitos reservados. </p>
+                <p type="button" class="footer-text" onclick="showHideMenu()"> Giovanni Tagliaro © Copyright 2019. Todos os direitos reservados. </p>
 
         </footer>
 
         <div class="footer-menu-nav">
-            <p class="label-menu"> Menu </p>
-            <img class="icon-menu" src="images/icon-menu.png">
+            <p class="label-menu" onclick="showHideMenu()"> Menu </p>
+            <img class="icon-menu" src="images/icon-menu.png" onclick="showHideMenu()">
         </div>
 
-        <nav class="menu-opened">
+        <nav id="toggle" class="menu-opened">
             <ul>
                 <li class="item-menu"> Sobre </li>
                 <li class="item-menu"> Cases </li>
