@@ -479,9 +479,7 @@ table {
         line-height: 1.75em;
         text-align: center;
         color: #6D7A7A;
-        margin-left: 16px;
-	margin-right: 16px;
-	margin-bottom: 88px;
+        margin-bottom: 88px;
     }
 
     .footer-menu-nav {
@@ -494,6 +492,7 @@ table {
         width: 100%;
         background: #161616;
         box-shadow: 0px 0px 16px #000000;
+        z-index: 9999 !important;
     }
 
     .label-menu {
@@ -515,8 +514,6 @@ table {
     }
 
     .menu-opened {
-        visibility: hidden;
-        display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -540,8 +537,5 @@ table {
         margin-bottom: 40px;
         text-align: center;
     }
-
-    
-
 
 }
