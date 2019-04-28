@@ -479,7 +479,9 @@ table {
         line-height: 1.75em;
         text-align: center;
         color: #6D7A7A;
-        margin-bottom: 88px;
+        margin-left: 16px;
+	margin-right: 16px;
+	margin-bottom: 88px;
     }
 
     .footer-menu-nav {
