@@ -1,4 +1,4 @@
-Sorry, guys, this a a WIP, so at the moment the website is working only in its mobile version.
+Sorry, guys, this a WIP, so at the moment the website is working only in its mobile version.
 
 Please try to access it on your smartphone using the following URL: https://giotgo.github.io/responsive_portfolio/
 
