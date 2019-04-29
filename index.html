@@ -15,6 +15,15 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"/>
 
         <script type="text/javascript" src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+              $(".clicar").click(function(){
+                $("#toggle").fadeToggle();
+            });
+          });
+        </script>
 
     </head>
 
@@ -24,16 +33,16 @@
             <nav class="nav-content">
                 <img src="images/logo-yellow.png">
                 <div class="nav-links-list">
-                    <a href="https://www.facebook.com/giovanni.tagliaro">
+                    <a href="https://www.facebook.com/giovanni.tagliaro" target="_blank">
                         <img class="nav-link" src="images/icon-facebook.png">
                     </a>
-                    <a href="https://www.linkedin.com/in/giovanni-tagliaro-a05246115/">
+                    <a href="https://www.linkedin.com/in/giovanni-tagliaro-a05246115/" target="_blank">
                         <img class="nav-link" src="images/icon-linkedin.png">
                     </a>
-                    <a href="https://www.instagram.com/giotgo/">
+                    <a href="https://www.instagram.com/giotgo/" target="_blank">
                         <img class="nav-link" src="images/icon-instagram.png">
                     </a>
-                    <a href="https://www.behance.net/giovannitagliaro">
+                    <a href="https://www.behance.net/giovannitagliaro" target="_blank">
                         <img class="nav-link" src="images/icon-behance.png">
                     </a>
                 </div>
@@ -54,7 +63,7 @@
             </div>
         </div>
 
-        <div class="section-sobre">
+        <div id="sobre" class="section-sobre">
 
             <img  class="photo-gio" src="images/photo-gio.png"
             alt="Fotografia de rosto de Giovanni Tagliaro.">
@@ -100,7 +109,7 @@
 
         </div>
 
-        <div class="section-cases">
+        <div id="cases" class="section-cases">
 
                 <h1 class="title-white"> Cases </h1>
 
@@ -129,7 +138,7 @@
 
         </div>
 
-        <div class="section-contact">
+        <div id="contato" class="section-contact">
 
             <h1 class="title-black-contact"> Contato </h1>
 
@@ -139,21 +148,21 @@
 
             <h2 class="contact-gray-title"> Mídias Sociais </h2>
 
-            <a href="https://www.facebook.com/giovanni.tagliaro" class="link-alignment-left">
+            <a href="https://www.facebook.com/giovanni.tagliaro" target="_blank" class="link-alignment-left">
                 
                     <img class="yellow-icon" src="images/icon-facebook-yellow.png">
                     <p class="contact-link"> /giovanni.tagliaro </p>
                 
             </a>
 
-            <a href="https://www.linkedin.com/in/giovanni-tagliaro-a05246115/" class="link-alignment-left">
+            <a href="https://www.linkedin.com/in/giovanni-tagliaro-a05246115/" target="_blank" class="link-alignment-left">
                 
                     <img class="yellow-icon" src="images/icon-linkedin-yellow.png">
                     <p class="contact-link"> /giovanni-tagliaro-a05246115 </p>
                 
             </a>
 
-            <a href="https://www.instagram.com/giotgo/" class="link-alignment-left">
+            <a href="https://www.instagram.com/giotgo/" target="_blank" class="link-alignment-left">
                 
                     <img class="yellow-icon" src="images/icon-instagram-yellow.png">
                     <p class="contact-link"> @giotgo </p>
@@ -172,7 +181,10 @@
                 <p class="contact-link"> +55 (51) 99717-8506 </p>
             </span>
 
+
         </div>
+
+
 
         <footer class="footer">
 
@@ -183,15 +195,15 @@
         </footer>
 
         <div class="footer-menu-nav">
-            <p class="label-menu" onclick="showHideMenu()"> Menu </p>
-            <img class="icon-menu" src="images/icon-menu.png" onclick="showHideMenu()">
+            <p class="label-menu clicar"> Menu </p>
+            <img class="icon-menu clicar" src="images/icon-menu.png">
         </div>
 
-        <nav id="toggle" class="menu-opened" style="display: none;">
+        <nav id="toggle" class="menu-opened" style="display: none">
             <ul>
-                <li class="item-menu"> Sobre </li>
-                <li class="item-menu"> Cases </li>
-                <li class="item-menu"> Contato </li>
+                <li class="item-menu"> <a href="#sobre" class="clicar"> Sobre </a> </li>
+                <li class="item-menu"> <a href="#cases" class="clicar"> Cases </a> </li>
+                <li class="item-menu"> <a href="#contato" class="clicar"> Contato </a></li>
             </ul>
         </nav>
         
@@ -199,5 +211,6 @@
         <div class="background-texture"></div>
         -->
         </div>
+
     </body>
 </html>
